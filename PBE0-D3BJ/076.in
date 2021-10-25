@@ -1,0 +1,26 @@
+dft(
+structure(
+! xyz from file  /Users/zackwilliams/OneDrive - University of Bristol/geometries/MB13/076.xyz
+xyz = [
+[H, -0.10732, 2.90062, -0.02721],
+[H, 0.35760, -1.90152, 0.97790],
+[Li, -0.27775, 0.78724, -0.00029],
+[H, 0.84572, -0.46906, -0.34423],
+[H, -1.10236, -0.68915, 0.32212],
+[B, -0.04346, -1.30148, 0.00006],
+[H, 0.61490, 2.68175, 0.02928],
+[H, -0.28734, -2.00840, -0.95762]
+]
+)
+xc = PBE0
+d3bj(
+functional = PBE0
+)
+
+! Basis sets
+ao = 'Def2-TZVPPD'
+df = 'Def2-universal-JKFIT'
+
+
+)
+

@@ -1,0 +1,17 @@
+dft(
+structure(
+! xyz from file  /Users/zackwilliams/OneDrive - University of Bristol/geometries/MB13/167_li.xyz
+xyz = [
+[Li, 0.00000, 0.00000, 0.80730],
+[H, 0.00000, 0.00000, -0.80730]
+]
+)
+xc = wB97XD3
+
+! Basis sets
+ao = 'Def2-TZVPPD'
+df = 'Def2-universal-JKFIT'
+
+
+)
+

@@ -1,0 +1,16 @@
+#
+# 172_o TPSSh-D3BJ/Def2-TZVPPD
+#
+! tpssh d3bj def2-tzvppd def2/jk grid4 nofinalgrid
+
+*xyz 0 3
+O          0.00000        0.00000        0.61122
+O          0.00000        0.00000       -0.61122
+*
+
+%maxcore 5000
+
+%pal
+nprocs = 24
+end
+

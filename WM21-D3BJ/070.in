@@ -1,0 +1,44 @@
+dft(
+structure(
+! xyz from file  /Users/zackwilliams/OneDrive - University of Bristol/geometries/MB13/070.xyz
+xyz = [
+[H, 0.08530, -0.02655, 1.60712],
+[H, 0.90656, -0.78582, -1.39861],
+[Be, -0.05035, 0.92778, -0.02639],
+[H, 0.07901, 0.71807, 1.80526],
+[F, -0.04624, -1.68577, 0.17900],
+[C, -0.00461, -0.62157, -0.79461],
+[H, -0.11623, 2.26790, 0.10895],
+[H, -0.85344, -0.79405, -1.48072]
+]
+)
+xc = wB97X
+custom_xc_parameters(
+alpha = 0.2638
+beta = 0.7362
+omega = 0.3000
+b97_parameters = [[0.7362, 0.766, 0.0, 0.0, 0.0], [-0.1891, 1.2545, -0.0543, -3.3595, 2.469], [0.9673, -1.4147, 1.1877, 0.0, 0.0]]
+)
+
+
+uw12(
+coefficients = [-0.1467, 0.1108, -0.1995, -0.0026]
+exponents = [0.01, 0.031623, 0.1, 3.162278]
+scale_same_spin = 0
+schwarz_threshold = 1e-12
+ri = 'Def2-TZVPPD-RI'
+)
+d3bj(
+s6 = 1.0000
+s8 = -0.1123
+a1 = 0.0000
+a2 = 5.4900
+)
+
+! Basis sets
+ao = 'Def2-TZVPPD'
+df = 'Def2-universal-JKFIT'
+
+
+)
+

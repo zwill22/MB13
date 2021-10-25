@@ -1,0 +1,40 @@
+dft(
+structure(
+! xyz from file  /Users/zackwilliams/OneDrive - University of Bristol/geometries/MB13/111.xyz
+xyz = [
+[N, 0.85218, 0.06581, 1.54293],
+[C, -0.45432, 0.04016, 1.51127],
+[H, 0.51389, -1.04630, -1.15231],
+[H, -1.27128, -0.21181, 2.19239],
+[H, 0.93075, 0.61434, -1.62997],
+[C, 0.02563, 0.43731, 0.29642],
+[C, 0.17679, 0.00817, -1.10677],
+[H, -0.77364, 0.09232, -1.65395]
+]
+)
+
+! Functional setup
+xc_mix = [[0.5, B88], [0.75, LYP]]
+exchange_factor = 0.5
+
+
+uw12(
+coefficients = [0.000835, -0.085419, -0.260012, -0.216533, -0.135269, -0.070814, -0.039562, -0.021128, -0.007673, -0.011382]
+exponents = [0.01, 0.035938, 0.129155, 0.464159, 1.668101, 5.994843, 21.544347, 77.426368, 278.25594, 1000.0]
+scale_opp_spin = 0.25
+scale_same_spin = 0.5
+schwarz_threshold = 1e-12
+ri = 'Def2-TZVPPD-RI'
+)
+d3bj(
+functional = B2PLYP
+)
+
+! Basis sets
+ao = 'Def2-TZVPPD'
+df = 'Def2-universal-JKFIT'
+
+
+spin = 1
+)
+

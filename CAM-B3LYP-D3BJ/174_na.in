@@ -1,0 +1,20 @@
+dft(
+structure(
+! xyz from file  /Users/zackwilliams/OneDrive - University of Bristol/geometries/MB13/174_na.xyz
+xyz = [
+[Na, 0.00000, 0.00000, 0.94863],
+[H, 0.00000, 0.00000, -0.94863]
+]
+)
+xc = CAMB3LYP
+d3bj(
+functional = CAMB3LYP
+)
+
+! Basis sets
+ao = 'Def2-TZVPPD'
+df = 'Def2-universal-JKFIT'
+
+
+)
+

@@ -1,0 +1,23 @@
+dft(
+structure(
+! xyz from file  /Users/zackwilliams/OneDrive - University of Bristol/geometries/MB13/177_si.xyz
+xyz = [
+[Si, 0.00000, 0.00000, 0.00000],
+[H, -0.86552, 0.86552, 0.86552],
+[H, 0.86552, -0.86552, 0.86552],
+[H, -0.86552, -0.86552, -0.86552],
+[H, 0.86552, 0.86552, -0.86552]
+]
+)
+xc = CAMB3LYP
+d3bj(
+functional = CAMB3LYP
+)
+
+! Basis sets
+ao = 'Def2-TZVPPD'
+df = 'Def2-universal-JKFIT'
+
+
+)
+

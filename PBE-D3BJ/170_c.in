@@ -1,0 +1,23 @@
+dft(
+structure(
+! xyz from file  /Users/zackwilliams/OneDrive - University of Bristol/geometries/MB13/170_c.xyz
+xyz = [
+[C, 0.00000, 0.00000, 0.00000],
+[H, 0.63307, 0.63307, -0.63307],
+[H, -0.63307, -0.63307, -0.63307],
+[H, 0.63307, -0.63307, 0.63307],
+[H, -0.63307, 0.63307, 0.63307]
+]
+)
+xc = PBE
+d3bj(
+functional = PBE
+)
+
+! Basis sets
+ao = 'Def2-TZVPPD'
+df = 'Def2-universal-JKFIT'
+
+
+)
+

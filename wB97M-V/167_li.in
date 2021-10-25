@@ -1,0 +1,16 @@
+#
+# 167_li wB97M-V/Def2-TZVPPD
+#
+! wb97m-v def2-tzvppd def2/jk grid4 nofinalgrid
+
+*xyz 0 1
+Li         0.00000        0.00000        0.80730
+H          0.00000        0.00000       -0.80730
+*
+
+%maxcore 5000
+
+%pal
+nprocs = 24
+end
+
