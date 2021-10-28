@@ -1,0 +1,94 @@
+
+================================================================================
+          _____________ ________ _______________ ________     _________         
+         / ___________// ______ \\_____   _____// ______ \   / ________)        
+        / /_________  / /      \ \     | |     / /      \ \ | (_______          
+       |  __________|| |        | |    | |    | |        | | \________ \        
+        \ \_________ | |        | |    | |     \ \______/ /___________) |       
+         \__________||_|        |_|    |_|      \________//____________/        
+                                                                                
+====================================[ Qcore ]===================================
+
+ Git describe: 2.3.0-1-g21d9df7e5
+ Compiler:     GNU 9.1.0
+ Build type:   Release
+ Version:      2.3.0-1-g21d9df7e5
+
+ Start time:   Tue Oct 26 23:37:48 2021
+
+ Data directory: /work/zw18965/.local/qcore/share/entos/qcore/data
+ Number of threads: 24
+ Number of threads was determined by: command line argument
+
+ --------------------------------------------------------------------------------
+                                   command: dft                                  
+ --------------------------------------------------------------------------------
+ AO basis set:                           def2-tzvppd
+ Number of AO basis functions:         161
+
+ Formula:                                H6LiB
+ Nuclear charge:                        14.000000000
+ Total charge:                           0.000000000
+ Number of electrons:                   14.000000000
+
+ Number of alpha electrons:              7
+ Number of beta electrons:               7
+ Number of unpaired electrons:           0
+ Spin:                                   0
+ Multiplicity:                           singlet
+
+ Theory:                                 dft
+ Exchange-correlation functional:        b3lyp
+ Method for Coulomb:                     incore_df
+ Method for exact exchange:              pre_transformed_df
+ Integral threshold:                     1.00e-12
+ DF basis set:                           def2-universal-jkfit
+ Number of DF basis functions:         234
+ Schwarz screening threshold:            1.00e-10
+ Coulomb fitting method:                 Cholesky
+ Total number of grid points:        48712
+ Method for AO orthogonalization:        symmetric
+ Threshold for linear dependence:        1.00e-08
+ D3BJ dispersion energy:                -0.005528201
+
+ -------------------------------------
+  Running restricted closed-shell SCF 
+ -------------------------------------
+ Max number of iterations:             128
+ Conv. threshold (gradient):             1.00e-05
+ Conv. threshold (energy):               1.00e-06
+ Interpolation scheme:                   adiis+cdiis
+ Initial guess:                          SAD
+
+ ---------------------------------------------------------------
+                  energy        change          grad        time
+ ---------------------------------------------------------------
+   0       -35.645845501                    7.08e+00        0.04
+   1       -35.849588575     -2.04e-01      1.35e+00        0.04
+   2       -35.834050997      1.55e-02      1.38e+00        0.03
+   3       -35.946981803     -1.13e-01      4.21e-02        0.03
+   4       -35.947001954     -2.02e-05      3.41e-02        0.03
+   5       -35.947053297     -5.13e-05      1.29e-03        0.03
+   6       -35.947053402     -1.06e-07      3.34e-04        0.03
+   7       -35.947053409     -7.13e-09      2.52e-05        0.03
+   8       -35.947053409     -5.51e-11      1.85e-06        0.03
+
+ SCF converged in 8 iterations.
+
+ Dipole moment (in Debye):              -0.619268       7.347157      -0.002498
+
+ Quadrupole moment (in Debye-Angstrom):
+                  1            2            3
+ 1       -15.674568    -0.764313     0.141201
+ 2        -0.764313   -10.575095    -0.005722
+ 3         0.141201    -0.005722   -16.281528
+
+ Spin-squared expectation <S^2>:         0.000
+ Total spin quantum number S:            0.000
+ TOTAL ENERGY:                         -35.947053409
+
+ --------------------------------------------------------------------------------
+
+ End time:                               Tue Oct 26 23:37:49 2021
+ Total wall-clock time:                  0.777 seconds
+==================================================================================

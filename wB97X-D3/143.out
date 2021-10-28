@@ -1,0 +1,104 @@
+
+================================================================================
+          _____________ ________ _______________ ________     _________         
+         / ___________// ______ \\_____   _____// ______ \   / ________)        
+        / /_________  / /      \ \     | |     / /      \ \ | (_______          
+       |  __________|| |        | |    | |    | |        | | \________ \        
+        \ \_________ | |        | |    | |     \ \______/ /___________) |       
+         \__________||_|        |_|    |_|      \________//____________/        
+                                                                                
+====================================[ Qcore ]===================================
+
+ Git describe: 2.3.0-1-g21d9df7e5
+ Compiler:     GNU 9.1.0
+ Build type:   Release
+ Version:      2.3.0-1-g21d9df7e5
+
+ Start time:   Tue Oct 26 23:52:13 2021
+
+ Data directory: /work/zw18965/.local/qcore/share/entos/qcore/data
+ Number of threads: 24
+ Number of threads was determined by: command line argument
+  - More threads can be used by running 'qcore -n 32'
+
+ --------------------------------------------------------------------------------
+                                   command: dft                                  
+ --------------------------------------------------------------------------------
+ AO basis set:                           def2-tzvppd
+ Number of AO basis functions:         196
+
+ Formula:                                C2H5N
+ Nuclear charge:                        24.000000000
+ Total charge:                           0.000000000
+ Number of electrons:                   24.000000000
+
+ Number of alpha electrons:             12
+ Number of beta electrons:              12
+ Number of unpaired electrons:           0
+ Spin:                                   0
+ Multiplicity:                           singlet
+
+ Theory:                                 dft
+ Exchange-correlation functional:        wb97xd3
+
+ Using range separated hybrid functional
+ Range separation parameter:             0.250000000
+ Short range exact exchange:             0.195728000
+ Total long range exact exchange:        1.000000000
+
+ Method for Coulomb:                     incore_df
+ Method for exact exchange:              pre_transformed_df
+ Integral threshold:                     1.00e-12
+ DF basis set:                           def2-universal-jkfit
+ Number of DF basis functions:         317
+ Schwarz screening threshold:            1.00e-10
+ Coulomb fitting method:                 Cholesky
+ Total number of grid points:        49850
+ Method for AO orthogonalization:        symmetric
+ Threshold for linear dependence:        1.00e-08
+ D3 dispersion energy:                  -0.000744013
+
+ -------------------------------------
+  Running restricted closed-shell SCF 
+ -------------------------------------
+ Max number of iterations:             128
+ Conv. threshold (gradient):             1.00e-05
+ Conv. threshold (energy):               1.00e-06
+ Interpolation scheme:                   adiis+cdiis
+ Initial guess:                          SAD
+
+ ---------------------------------------------------------------
+                  energy        change          grad        time
+ ---------------------------------------------------------------
+   0      -134.415545467                    1.44e+01        0.06
+   1      -133.865865099      5.50e-01      7.13e-01        0.05
+   2      -133.886977913     -2.11e-02      6.58e-01        0.05
+   3      -133.891332852     -4.35e-03      4.78e-01        0.05
+   4      -133.896859985     -5.53e-03      1.61e-01        0.05
+   5      -133.896604493      2.55e-04      1.92e-01        0.05
+   6      -133.897536894     -9.32e-04      1.04e-02        0.05
+   7      -133.897538372     -1.48e-06      1.33e-02        0.05
+   8      -133.897543640     -5.27e-06      2.41e-04        0.05
+   9      -133.897543649     -8.95e-09      5.16e-05        0.05
+  10      -133.897543650     -4.29e-10      1.71e-05        0.05
+  11      -133.897543650     -3.13e-11      4.41e-06        0.05
+
+ SCF converged in 11 iterations.
+
+ Dipole moment (in Debye):               0.278740       0.000240      -3.911677
+
+ Quadrupole moment (in Debye-Angstrom):
+                  1            2            3
+ 1       -17.012723     0.003311    -0.965986
+ 2         0.003311   -20.076553    -0.003250
+ 3        -0.965986    -0.003250   -26.430485
+
+ Spin-squared expectation <S^2>:         0.000
+ Total spin quantum number S:            0.000
+ TOTAL ENERGY:                        -133.897543650
+
+ --------------------------------------------------------------------------------
+
+ End time:                               Tue Oct 26 23:52:15 2021
+ Total wall-clock time:                  1.494 seconds
+==================================================================================

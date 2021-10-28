@@ -1,0 +1,92 @@
+
+================================================================================
+          _____________ ________ _______________ ________     _________         
+         / ___________// ______ \\_____   _____// ______ \   / ________)        
+        / /_________  / /      \ \     | |     / /      \ \ | (_______          
+       |  __________|| |        | |    | |    | |        | | \________ \        
+        \ \_________ | |        | |    | |     \ \______/ /___________) |       
+         \__________||_|        |_|    |_|      \________//____________/        
+                                                                                
+====================================[ Qcore ]===================================
+
+ Git describe: 2.3.0-1-g21d9df7e5
+ Compiler:     GNU 9.1.0
+ Build type:   Release
+ Version:      2.3.0-1-g21d9df7e5
+
+ Start time:   Tue Oct 26 23:40:25 2021
+
+ Data directory: /work/zw18965/.local/qcore/share/entos/qcore/data
+ Number of threads: 24
+ Number of threads was determined by: command line argument
+
+ --------------------------------------------------------------------------------
+                                   command: dft                                  
+ --------------------------------------------------------------------------------
+ AO basis set:                           def2-tzvppd
+ Number of AO basis functions:          56
+
+ Formula:                                H2Be
+ Nuclear charge:                         6.000000000
+ Total charge:                           0.000000000
+ Number of electrons:                    6.000000000
+
+ Number of alpha electrons:              3
+ Number of beta electrons:               3
+ Number of unpaired electrons:           0
+ Spin:                                   0
+ Multiplicity:                           singlet
+
+ Theory:                                 dft
+ Exchange-correlation functional:        blyp
+ Method for Coulomb:                     incore_df
+ Integral threshold:                     1.00e-12
+ DF basis set:                           def2-universal-jkfit
+ Number of DF basis functions:          87
+ Schwarz screening threshold:            1.00e-10
+ Coulomb fitting method:                 Cholesky
+ Total number of grid points:        18436
+ Method for AO orthogonalization:        symmetric
+ Threshold for linear dependence:        1.00e-08
+ D3BJ dispersion energy:                -0.001174315
+
+ -------------------------------------
+  Running restricted closed-shell SCF 
+ -------------------------------------
+ Max number of iterations:             128
+ Conv. threshold (gradient):             1.00e-05
+ Conv. threshold (energy):               1.00e-06
+ Interpolation scheme:                   adiis+cdiis
+ Initial guess:                          SAD
+
+ ---------------------------------------------------------------
+                  energy        change          grad        time
+ ---------------------------------------------------------------
+   0       -15.750388962                    1.54e+00        0.01
+   1       -15.878106868     -1.28e-01      4.58e-01        0.01
+   2       -15.893105517     -1.50e-02      2.08e-01        0.01
+   3       -15.897085857     -3.98e-03      1.10e-01        0.01
+   4       -15.898033190     -9.47e-04      5.63e-02        0.01
+   5       -15.898290686     -2.57e-04      2.79e-02        0.01
+   6       -15.898371159     -8.05e-05      2.25e-05        0.01
+   7       -15.898371159     -5.92e-11      1.47e-06        0.00
+
+ SCF converged in 7 iterations.
+
+ Dipole moment (in Debye):              -0.000000      -0.000000      -0.000000
+
+ Quadrupole moment (in Debye-Angstrom):
+                  1            2            3
+ 1        -6.822248    -0.000000     0.000000
+ 2        -0.000000    -6.822248     0.000000
+ 3         0.000000     0.000000   -12.086531
+
+ Spin-squared expectation <S^2>:         0.000
+ Total spin quantum number S:            0.000
+ TOTAL ENERGY:                         -15.898371159
+
+ --------------------------------------------------------------------------------
+
+ End time:                               Tue Oct 26 23:40:26 2021
+ Total wall-clock time:                  0.277 seconds
+==================================================================================

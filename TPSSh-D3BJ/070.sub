@@ -1,0 +1,26 @@
+#!/bin/bash -l
+#PBS -N "070"
+#PBS -j oe
+#PBS -l walltime=3:00:00
+#PBS -l select=1:ncpus=24:mem=144gb:mpiprocs=24
+
+cd /work/zw18965/MB13/TPSSh-D3BJ
+
+module load lib/openmpi
+module load apps/orca
+export orcadir="/sw/apps/orca/orca_4_2_0_linux_x86-64_openmpi314"
+export RSH_COMMAND="/usr/bin/ssh -x"
+
+
+#Setup scratch directory
+cp "070.in" ${TMPDIR}
+cp "070.xyz" ${TMPDIR}
+
+# Run orca
+cd ${TMPDIR}
+export MKL_THREADING_LAYER=TBB
+
+${orcadir}/orca "070.in" &> "070.out"
+
+cp * /work/zw18965/MB13/TPSSh-D3BJ
+cd /work/zw18965/MB13/TPSSh-D3BJ
