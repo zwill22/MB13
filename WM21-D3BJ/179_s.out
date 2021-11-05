@@ -9,17 +9,16 @@
                                                                                 
 ====================================[ Qcore ]===================================
 
- Git describe: 2.3.0-1-g21d9df7e5
- Compiler:     GNU 9.1.0
+ Git describe: 2.3.0-3-g778a55bfd
+ Compiler:     GNU 9.3.0
  Build type:   Release
- Version:      2.3.0-1-g21d9df7e5
+ Version:      2.3.0-3-g778a55bfd
 
- Start time:   Tue Oct 26 23:58:21 2021
+ Start time:   Wed Nov  3 13:06:22 2021
 
- Data directory: /work/zw18965/.local/qcore/share/entos/qcore/data
- Number of threads: 24
+ Data directory: /mnt/storage/scratch/zw18965/.local/qcore/share/entos/qcore/data
+ Number of threads: 28
  Number of threads was determined by: command line argument
-  - More threads can be used by running 'qcore -n 32'
 
  --------------------------------------------------------------------------------
                                    command: dft                                  
@@ -85,32 +84,32 @@
  ---------------------------------------------------------------
                   energy        change          grad        time
  ---------------------------------------------------------------
-   0      -801.252438936                    1.89e+00        0.78
-   1      -801.215772850      3.67e-02      6.17e-02        0.22
-   2      -801.221372488     -5.60e-03      2.40e-02        0.21
-   3      -801.222158587     -7.86e-04      8.53e-03        0.21
-   4      -801.222251450     -9.29e-05      1.79e-03        0.19
-   5      -801.222259746     -8.30e-06      4.57e-04        0.17
-   6      -801.222259942     -1.95e-07      1.52e-04        0.19
-   7      -801.222259977     -3.50e-08      2.90e-05        0.18
-   8      -801.222259975      1.33e-09      4.32e-06        0.18
+   0      -796.441504613                    1.97e+00        0.56
+   1      -796.358315747      8.32e-02      5.87e-02        0.22
+   2      -796.362720376     -4.40e-03      1.92e-02        0.18
+   3      -796.363341604     -6.21e-04      8.40e-03        0.18
+   4      -796.363434107     -9.25e-05      1.36e-03        0.16
+   5      -796.363439710     -5.60e-06      3.79e-04        0.18
+   6      -796.363439856     -1.46e-07      1.43e-04        0.16
+   7      -796.363439884     -2.78e-08      2.43e-05        0.16
+   8      -796.363439884      4.25e-11      3.49e-06        0.15
 
  SCF converged in 8 iterations.
 
- Dipole moment (in Debye):              -0.000000      -0.000000      -0.000000
+ Dipole moment (in Debye):               0.000000       0.000000      -0.000002
 
  Quadrupole moment (in Debye-Angstrom):
                   1            2            3
- 1       -25.261620     0.000000    -0.000000
- 2         0.000000   -25.261620    -0.000000
- 3        -0.000000    -0.000000   -22.804976
+ 1       -26.155504    -0.000000     0.000000
+ 2        -0.000000   -26.155504     0.000000
+ 3         0.000000     0.000000   -23.922397
 
- Spin-squared expectation <S^2>:         2.016
- Total spin quantum number S:            1.005
- TOTAL ENERGY:                        -801.222259976
+ Spin-squared expectation <S^2>:         2.013
+ Total spin quantum number S:            1.004
+ TOTAL ENERGY:                        -796.363439884
 
  --------------------------------------------------------------------------------
 
- End time:                               Tue Oct 26 23:58:25 2021
- Total wall-clock time:                  3.456 seconds
+ End time:                               Wed Nov  3 13:06:25 2021
+ Total wall-clock time:                  2.933 seconds
 ==================================================================================
